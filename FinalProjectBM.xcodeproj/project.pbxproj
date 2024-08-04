@@ -17,6 +17,10 @@
 		20F1B20C2C5BB89000601FEA /* InputViewUiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F1B20B2C5BB89000601FEA /* InputViewUiModel.swift */; };
 		650A3B302C5FAE3700300F9F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650A3B2E2C5FAE3700300F9F /* GradientView.swift */; };
 		650A3B312C5FAE3700300F9F /* ColorExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650A3B2F2C5FAE3700300F9F /* ColorExtention.swift */; };
+		650A3B352C5FB00900300F9F /* OTP.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650A3B332C5FB00900300F9F /* OTP.storyboard */; };
+		650A3B362C5FB00900300F9F /* LoadingConecting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650A3B342C5FB00900300F9F /* LoadingConecting.swift */; };
+		650A3B392C5FB01C00300F9F /* OTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650A3B372C5FB01C00300F9F /* OTP.swift */; };
+		650A3B3A2C5FB01C00300F9F /* LoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650A3B382C5FB01C00300F9F /* LoadingVC.swift */; };
 		657138A92C598EB9008F0919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657138A82C598EB9008F0919 /* AppDelegate.swift */; };
 		657138AD2C598EB9008F0919 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657138AC2C598EB9008F0919 /* ViewController.swift */; };
 		657138B02C598EB9008F0919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657138AE2C598EB9008F0919 /* Main.storyboard */; };
@@ -36,6 +40,10 @@
 		20F1B20B2C5BB89000601FEA /* InputViewUiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewUiModel.swift; sourceTree = "<group>"; };
 		650A3B2E2C5FAE3700300F9F /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		650A3B2F2C5FAE3700300F9F /* ColorExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtention.swift; sourceTree = "<group>"; };
+		650A3B332C5FB00900300F9F /* OTP.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OTP.storyboard; sourceTree = "<group>"; };
+		650A3B342C5FB00900300F9F /* LoadingConecting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingConecting.swift; sourceTree = "<group>"; };
+		650A3B372C5FB01C00300F9F /* OTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTP.swift; sourceTree = "<group>"; };
+		650A3B382C5FB01C00300F9F /* LoadingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingVC.swift; sourceTree = "<group>"; };
 		657138A52C598EB9008F0919 /* FinalProjectBM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectBM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		657138A82C598EB9008F0919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		657138AC2C598EB9008F0919 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,9 +112,21 @@
 			path = CustomInputView;
 			sourceTree = "<group>";
 		};
+		650A3B322C5FAFB500300F9F /* OTPscreen */ = {
+			isa = PBXGroup;
+			children = (
+				650A3B382C5FB01C00300F9F /* LoadingVC.swift */,
+				650A3B372C5FB01C00300F9F /* OTP.swift */,
+				650A3B342C5FB00900300F9F /* LoadingConecting.swift */,
+				650A3B332C5FB00900300F9F /* OTP.storyboard */,
+			);
+			path = OTPscreen;
+			sourceTree = "<group>";
+		};
 		6571389C2C598EB9008F0919 = {
 			isa = PBXGroup;
 			children = (
+				650A3B322C5FAFB500300F9F /* OTPscreen */,
 				657138A82C598EB9008F0919 /* AppDelegate.swift */,
 				20A2B13A2C5C0D4E0078AF7E /* AddCard */,
 				20E48A5D2C5BE6C0005A3927 /* Extentions */,
@@ -219,6 +239,7 @@
 				657138B52C598EBD008F0919 /* LaunchScreen.storyboard in Resources */,
 				657138B22C598EBD008F0919 /* Assets.xcassets in Resources */,
 				20F1B20A2C5BB3A900601FEA /* CustomInputView.xib in Resources */,
+				650A3B352C5FB00900300F9F /* OTP.storyboard in Resources */,
 				657138B02C598EB9008F0919 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,11 +296,14 @@
 				650A3B312C5FAE3700300F9F /* ColorExtention.swift in Sources */,
 				20E48A5F2C5BE6E6005A3927 /* ImageExtention.swift in Sources */,
 				20A2B1392C5C0CF80078AF7E /* AddCard.swift in Sources */,
+				650A3B362C5FB00900300F9F /* LoadingConecting.swift in Sources */,
 				657138AD2C598EB9008F0919 /* ViewController.swift in Sources */,
+				650A3B3A2C5FB01C00300F9F /* LoadingVC.swift in Sources */,
 				20F1B20C2C5BB89000601FEA /* InputViewUiModel.swift in Sources */,
 				20F1B2082C5BB38200601FEA /* CustomInputView.swift in Sources */,
 				657138A92C598EB9008F0919 /* AppDelegate.swift in Sources */,
 				650A3B302C5FAE3700300F9F /* GradientView.swift in Sources */,
+				650A3B392C5FB01C00300F9F /* OTP.swift in Sources */,
 				20CF066E2C5C559400881A6C /* AccountConnected.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
