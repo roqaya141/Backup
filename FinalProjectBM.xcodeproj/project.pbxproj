@@ -15,6 +15,8 @@
 		20F1B2082C5BB38200601FEA /* CustomInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F1B2072C5BB38200601FEA /* CustomInputView.swift */; };
 		20F1B20A2C5BB3A900601FEA /* CustomInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20F1B2092C5BB3A900601FEA /* CustomInputView.xib */; };
 		20F1B20C2C5BB89000601FEA /* InputViewUiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F1B20B2C5BB89000601FEA /* InputViewUiModel.swift */; };
+		650A3B302C5FAE3700300F9F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650A3B2E2C5FAE3700300F9F /* GradientView.swift */; };
+		650A3B312C5FAE3700300F9F /* ColorExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650A3B2F2C5FAE3700300F9F /* ColorExtention.swift */; };
 		657138A92C598EB9008F0919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657138A82C598EB9008F0919 /* AppDelegate.swift */; };
 		657138AD2C598EB9008F0919 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657138AC2C598EB9008F0919 /* ViewController.swift */; };
 		657138B02C598EB9008F0919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657138AE2C598EB9008F0919 /* Main.storyboard */; };
@@ -32,6 +34,8 @@
 		20F1B2072C5BB38200601FEA /* CustomInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputView.swift; sourceTree = "<group>"; };
 		20F1B2092C5BB3A900601FEA /* CustomInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomInputView.xib; sourceTree = "<group>"; };
 		20F1B20B2C5BB89000601FEA /* InputViewUiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewUiModel.swift; sourceTree = "<group>"; };
+		650A3B2E2C5FAE3700300F9F /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		650A3B2F2C5FAE3700300F9F /* ColorExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtention.swift; sourceTree = "<group>"; };
 		657138A52C598EB9008F0919 /* FinalProjectBM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectBM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		657138A82C598EB9008F0919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		657138AC2C598EB9008F0919 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 		20E48A5D2C5BE6C0005A3927 /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
+				650A3B2F2C5FAE3700300F9F /* ColorExtention.swift */,
+				650A3B2E2C5FAE3700300F9F /* GradientView.swift */,
 				20E48A5E2C5BE6E6005A3927 /* ImageExtention.swift */,
 			);
 			path = Extentions;
@@ -266,12 +272,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				650A3B312C5FAE3700300F9F /* ColorExtention.swift in Sources */,
 				20E48A5F2C5BE6E6005A3927 /* ImageExtention.swift in Sources */,
 				20A2B1392C5C0CF80078AF7E /* AddCard.swift in Sources */,
 				657138AD2C598EB9008F0919 /* ViewController.swift in Sources */,
 				20F1B20C2C5BB89000601FEA /* InputViewUiModel.swift in Sources */,
 				20F1B2082C5BB38200601FEA /* CustomInputView.swift in Sources */,
 				657138A92C598EB9008F0919 /* AppDelegate.swift in Sources */,
+				650A3B302C5FAE3700300F9F /* GradientView.swift in Sources */,
 				20CF066E2C5C559400881A6C /* AccountConnected.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
